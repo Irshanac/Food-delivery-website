@@ -14,7 +14,7 @@
     max-width: 50%;
     bottom: 10%;
     left: 6vw;
-    animation: fedeIn 3s ;
+    animation: fadeIn 3s ;
 }
 .header h2{
     font-weight: 500;
@@ -35,3 +35,11 @@
     font-size: max(1vw,13px);
     border-radius: 50px;
 }
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
